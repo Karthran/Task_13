@@ -28,23 +28,6 @@ auto main()->int
     graph.addEdge(3, 8, 1);
     graph.addEdge(8, 9, 1);
 
-
-    //auto edges_number{5};
-    //for (auto i{0}; i < vertexes_number; ++i)
-    //{
-    //    for (auto j{0}; j < edges_number; ++j)
-    //    {
-    //        auto vertex{rand() / (rand_max / vertexes_number + 1)};
-    //        
-    //        if (/*graph.isEdgeExists(i, vertex) ||*/ i == vertex)
-    //        {
-    //            --j;
-    //            continue;
-    //        }
-    //        graph.addEdge(i, vertex, 1);
-    //    }
-    //}
-
     graph.findMinPath(1);
 
     return 0;
