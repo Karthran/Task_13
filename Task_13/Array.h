@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-#define VALUE_NOT_FOUND -1
+const int VALUE_NOT_FOUND  = -1;
 
 #include "BadException.h"
 
